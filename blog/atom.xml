@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://botapi.racca.me/blog</id>
+    <title>TelegramSDK - BotApi Blog</title>
+    <updated>2023-07-15T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://botapi.racca.me/blog"/>
+    <subtitle>TelegramSDK - BotApi Blog</subtitle>
+    <icon>https://botapi.racca.me/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Hello World]]></title>
+        <id>https://botapi.racca.me/blog/long-blog-post</id>
+        <link href="https://botapi.racca.me/blog/long-blog-post"/>
+        <updated>2023-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[👋 Welcome to the TelegramSDK - BotAPI documentation.]]></summary>
+        <content type="html"><![CDATA[<p>👋 Welcome to the <a href="https://github.com/TelegramSDK/BotAPI" target="_blank" rel="noopener noreferrer">TelegramSDK - BotAPI</a> documentation.</p><p>😎 Trusted by <a href="https://core.telegram.org/bots/samples" target="_blank" rel="noopener noreferrer">Telegram</a>.</p>]]></content>
+        <author>
+            <name>Sebastiano Racca</name>
+            <uri>https://racca.me</uri>
+        </author>
+        <category label="hello" term="hello"/>
+        <category label="world" term="world"/>
+    </entry>
+</feed>
