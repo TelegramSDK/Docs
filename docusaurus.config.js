@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'TelegramSDK - BotApi',
-  tagline: 'Unofficial Software Development Kit for the Telegram Bot API.',
+  tagline: 'Software Development Kit for the Telegram Bot API.',
   favicon: 'img/favicon.ico',
   url: 'https://botapi.racca.me',
   baseUrl: '/',
