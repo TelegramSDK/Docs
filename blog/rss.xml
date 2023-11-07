@@ -4,14 +4,23 @@
         <title>TelegramSDK - BotApi Blog</title>
         <link>https://botapi.racca.me/blog</link>
         <description>TelegramSDK - BotApi Blog</description>
-        <lastBuildDate>Sat, 15 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Nov 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[They are Talking About Us]]></title>
+            <link>https://botapi.racca.me/blog/talking-about-us</link>
+            <guid>https://botapi.racca.me/blog/talking-about-us</guid>
+            <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Here's a list of articles that mentions us:]]></description>
+            <content:encoded><![CDATA[<p>Here's a list of articles that mentions us:</p><ul><li><a href="https://blog.racca.me/create-your-first-bot" target="_blank" rel="noopener noreferrer">blog.racca.me</a></li><li><a href="https://blog.racca.me/create-an-echo-bot" target="_blank" rel="noopener noreferrer">blog.racca.me</a></li></ul>]]></content:encoded>
+            <category>talking</category>
+        </item>
+        <item>
             <title><![CDATA[Hello World]]></title>
-            <link>https://botapi.racca.me/blog/long-blog-post</link>
-            <guid>https://botapi.racca.me/blog/long-blog-post</guid>
+            <link>https://botapi.racca.me/blog/hello-world</link>
+            <guid>https://botapi.racca.me/blog/hello-world</guid>
             <pubDate>Sat, 15 Jul 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[👋 Welcome to the TelegramSDK - BotAPI documentation.]]></description>
             <content:encoded><![CDATA[<p>👋 Welcome to the <a href="https://github.com/TelegramSDK/BotAPI" target="_blank" rel="noopener noreferrer">TelegramSDK - BotAPI</a> documentation.</p><p>😎 Trusted by <a href="https://core.telegram.org/bots/samples" target="_blank" rel="noopener noreferrer">Telegram</a>.</p>]]></content:encoded>

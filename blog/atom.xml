@@ -2,15 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://botapi.racca.me/blog</id>
     <title>TelegramSDK - BotApi Blog</title>
-    <updated>2023-07-15T00:00:00.000Z</updated>
+    <updated>2023-11-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://botapi.racca.me/blog"/>
     <subtitle>TelegramSDK - BotApi Blog</subtitle>
     <icon>https://botapi.racca.me/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[They are Talking About Us]]></title>
+        <id>https://botapi.racca.me/blog/talking-about-us</id>
+        <link href="https://botapi.racca.me/blog/talking-about-us"/>
+        <updated>2023-11-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Here's a list of articles that mentions us:]]></summary>
+        <content type="html"><![CDATA[<p>Here's a list of articles that mentions us:</p><ul><li><a href="https://blog.racca.me/create-your-first-bot" target="_blank" rel="noopener noreferrer">blog.racca.me</a></li><li><a href="https://blog.racca.me/create-an-echo-bot" target="_blank" rel="noopener noreferrer">blog.racca.me</a></li></ul>]]></content>
+        <author>
+            <name>Sebastiano Racca</name>
+            <uri>https://racca.me</uri>
+        </author>
+        <category label="talking" term="talking"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Hello World]]></title>
-        <id>https://botapi.racca.me/blog/long-blog-post</id>
-        <link href="https://botapi.racca.me/blog/long-blog-post"/>
+        <id>https://botapi.racca.me/blog/hello-world</id>
+        <link href="https://botapi.racca.me/blog/hello-world"/>
         <updated>2023-07-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[👋 Welcome to the TelegramSDK - BotAPI documentation.]]></summary>
         <content type="html"><![CDATA[<p>👋 Welcome to the <a href="https://github.com/TelegramSDK/BotAPI" target="_blank" rel="noopener noreferrer">TelegramSDK - BotAPI</a> documentation.</p><p>😎 Trusted by <a href="https://core.telegram.org/bots/samples" target="_blank" rel="noopener noreferrer">Telegram</a>.</p>]]></content>
