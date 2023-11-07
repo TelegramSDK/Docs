@@ -1,8 +1,8 @@
 ---
-slug: long-blog-post
+slug: hello-world
 title: Hello World
 authors: seba
-tags: [hello, world]
+tags: [ hello, world ]
 ---
 
 # Hello World
