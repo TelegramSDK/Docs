@@ -7,10 +7,10 @@ As mentioned in the introduction, the `Bot` class provides a method to get updat
 
 
 ## Updates Methods
-There are 3 updates methods:
-* `Bot::NO_UPDATES`: No updates are expected from Telegram, is set as default.
-* `Bot::UPDATES_FROM_GET_UPDATES`: Get updates from the `getUpdates()` method.
-* `Bot::UPDATES_FROM_WEBHOOK`: Get updates from [`php://input`](https://www.php.net/manual/en/wrappers.php.php#wrappers.php.input).
+You can pass 3 updates methods:
+* `null`: No updates are expected from Telegram, is set as default.
+* `Update::UPDATES_FROM_GET_UPDATES`: Get updates from the `getUpdates()` method.
+* `Update::UPDATES_FROM_WEBHOOK`: Get updates from [`php://input`](https://www.php.net/manual/en/wrappers.php.php#wrappers.php.input).
 
 ### Get Updates
 ```php
@@ -32,7 +32,8 @@ foreach($updates->result as $update){
 <?php
 use TelegramSDK\BotAPI\Telegram\Bot;
 
-$bot = new Bot("YOUR_BOT_TOKEN", Bot::UPDATES_FROM_WEBHOOK);
+// A webhook must be set
+$bot = new Bot("YOUR_BOT_TOKEN", Update::UPDATES_FROM_WEBHOOK);
 
 $update = $bot->updates();
 echo (json_encode($update) ?? "No updates found.") . "\n";
