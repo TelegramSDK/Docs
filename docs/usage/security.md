@@ -8,7 +8,7 @@ When working with the Telegram API is always a good practise to set a `secret_to
 You can check if the update is from Telegram with `$bot->onExternalRequest()` function.
 ```php
 if (!$update->isFromTelegram("YOUR_TELEGRAM_SECRET")) {
-    header("Location: https://t.me/" . $bot->getMe()->body->username, true);
+    header("Location: https://t.me/" . $bot->getMe()->body->result->username, true);
     exit;
 }
 ```

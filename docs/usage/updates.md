@@ -40,13 +40,16 @@ echo (json_encode($update) ?? "No updates found.") . "\n";
 ```
 
 ## Default Updates
-The library provides general default updates to use
+The library provides general default updates to use.
 
 ```php
-$updates = $bot->updates(true);
+$update = $bot->updates();
+$message = $update->getMessage();
 ```
 
-Here's a list of the currently available general updates:
-* [`msg`](https://core.telegram.org/bots/api#message): The sent message.
-* [`user`](https://core.telegram.org/bots/api#user): The user that performed the action.
-* [`chat`](https://core.telegram.org/bots/api#chat): The chat where the action was performed.
+Here's a list of the currently available methods:
+* [`getLastUpdateId()`](https://core.telegram.org/bots/api#update): The last update's identifier.
+* [`getMessage](https://core.telegram.org/bots/api#message): New incoming message of any kind - text, photo, sticker, etc.
+* [`getChat](https://core.telegram.org/bots/api#chat): The chat object of the last update.
+* [`getUser](https://core.telegram.org/bots/api#user): The user object of the last update.
+* [`getTrigger`](https://github.com/TelegramSDK/BotAPI/blob/main/src/Telegram/Update.php#L167): Returns the trigger of the update. *(i.e. A command, a caption, a callback data, ...)*
