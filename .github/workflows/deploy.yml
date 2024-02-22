@@ -22,7 +22,7 @@ jobs:
         run: yarn build
 
       - name: Create CNAME file
-        run: echo "sebabot.racca.me" > ./build/CNAME
+        run: echo "botapi.racca.me" > ./build/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
