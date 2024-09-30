@@ -19,7 +19,7 @@ You can pass 3 updates methods:
 use TelegramSDK\BotAPI\Telegram\Bot;
 
 // With getUpdates()
-$bot = new Bot("YOUR_BOT_TOKEN", Bot::UPDATES_FROM_GET_UPDATES);
+$bot = new Bot("YOUR_BOT_TOKEN", Update::UPDATES_FROM_GET_UPDATES);
 
 $updates = $bot->updates();
 foreach($updates->result as $update){
