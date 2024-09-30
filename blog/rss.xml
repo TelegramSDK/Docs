@@ -4,10 +4,19 @@
         <title>TelegramSDK - BotApi Blog</title>
         <link>https://botapi.racca.me/blog</link>
         <description>TelegramSDK - BotApi Blog</description>
-        <lastBuildDate>Tue, 07 Nov 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 30 Sep 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Announce BotKit]]></title>
+            <link>https://botapi.racca.me/blog/botkit</link>
+            <guid>https://botapi.racca.me/blog/botkit</guid>
+            <pubDate>Mon, 30 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[BotKit is just an extension for the BotAPI package useful for having suggestions by your IDE.]]></description>
+            <content:encoded><![CDATA[<p><a href="/docs/kit">BotKit</a> is just an extension for the <a href="/docs/intro">BotAPI</a> package useful for having suggestions by your IDE.</p><p>This new package fetches periodically all the methods from the <a href="https://core.telegram.org/bots/api" target="_blank" rel="noopener noreferrer">official documentation</a> to create all the PHP methods.</p>]]></content:encoded>
+            <category>kit</category>
+        </item>
         <item>
             <title><![CDATA[They are Talking About Us]]></title>
             <link>https://botapi.racca.me/blog/talking-about-us</link>
